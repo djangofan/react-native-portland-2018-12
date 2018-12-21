@@ -15,6 +15,6 @@ RCT_REMAP_METHOD(bgColor,
                  bgColorWithResolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
-  resolve(@"#00FF00");
+  resolve(@"#004400");
 }
 @end

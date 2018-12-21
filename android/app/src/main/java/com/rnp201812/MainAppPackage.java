@@ -10,14 +10,14 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-// import com.rnp201812.PDXButtonManager;
+import com.rnp201812.PDXButtonManager;
 
 public class MainAppPackage implements ReactPackage {
 
   @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
       return Arrays.<ViewManager> asList(
-          // new PDXButtonManager(reactContext)
+          new PDXButtonManager()
       );
   }
 
