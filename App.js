@@ -8,6 +8,7 @@
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
 import NativeColor from "./NativeColor";
+import PDXButton from "./PDXButton";
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -33,7 +34,7 @@ export default class App extends Component {
       >
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>BGColor: {this.state.bgcolor}</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <PDXButton style={{ width: 120, height: 50 }} />
       </View>
     );
   }
